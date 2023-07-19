@@ -74,11 +74,11 @@ header:hover {
 
 .nav-links-href {
     text-decoration: none;
-    color: var(--white);
+    color: var(--black);
 }
 
 .nav-links-href:hover, .logo:hover {
-    color: var(--black);
+    color: red;
 }
 
 .dropdown-block {
@@ -264,6 +264,7 @@ header:hover {
 
 .hamburger-on > p {
     left: 0;
+    width: 40vw;
 }
 
 .hamburger-off {
@@ -309,7 +310,7 @@ header:hover {
         text-transform: uppercase;
         font-size: 22px;
         font-weight: 800;
-        color: var(--white);
+        color: var(--black);
         transition: .3;
         font-family: 'Dancing Script', cursive;
         font-weight: bold;
@@ -327,6 +328,8 @@ header:hover {
         border: none;
     }
 }
+
+
 
 
 /*AFTER MAIN PAGE*/
@@ -619,6 +622,11 @@ q {
     background: #ECE2D6;
     margin-bottom: -80px;
 }
+
+.my-cont {
+    width: 60vw;
+}
+
 
 .footer-bottom {
     right: 46px 0 22px;
